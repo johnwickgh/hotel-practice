@@ -13,6 +13,7 @@
 	<artifactId>spring-hotelapp-restapi</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-hotelapp-restapi</name>
+	 <packaging>war</packaging>
 	<description>Standalone application using Spring Boot</description>
 
 	<properties>
