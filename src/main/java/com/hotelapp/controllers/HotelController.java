@@ -88,7 +88,12 @@ public class HotelController {
 		HttpHeaders header = new HttpHeaders();
 		header.add("desc", "getting one hotel instance");
 		return ResponseEntity.ok().headers(header).body(hotel);
-		
+	}
+	@GetMapping("hello")
+	public ResponseEntity<String> hello(){
+		HttpHeaders header = new HttpHeaders();
+		header.add("desc", "getting one hotel instance");
+		return ResponseEntity.ok().headers(header).body("hello");
 	}
 	@DeleteMapping("hotels/{hotelId}")
 	public ResponseEntity<Void> deleteHotel(@PathVariable int hotelId){
