@@ -128,5 +128,5 @@ public class HotelController {
 	}
 
 	//hello world
-	
+
 }
