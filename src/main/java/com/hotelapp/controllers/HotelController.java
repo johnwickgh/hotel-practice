@@ -126,5 +126,7 @@ public class HotelController {
 		List<Hotel> hotelList = hotelService.getHotelsByMenu(menuName);
 		return ResponseEntity.ok().body(hotelList);
 	}
+
+	//hello world
 	
 }
