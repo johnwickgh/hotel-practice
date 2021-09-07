@@ -33,18 +33,15 @@ import javax.validation.Valid;
 public class HotelController {
 	
 	@Autowired
-	HotelService hotelService; 
-	
-	Logger logger = LoggerFactory.getLogger(HotelController.class);
-
+	HotelService hotelService;
 	@Autowired
 	private JwtUtil jwtUtility;
-
 	@Autowired
 	private AuthenticationManager authenticationManager;
-
 	@Autowired
 	private MyUserDetailsService userService;
+
+	Logger logger = LoggerFactory.getLogger(HotelController.class);
 
 	@PostMapping("get-token")
 	public JwtResponse authenticate(@RequestBody JwtRequest jwtRequest) throws Exception{
