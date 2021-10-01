@@ -32,4 +32,6 @@ public class SpringHotelappRestapiApplication{
 	}
 	//hello feature-test-1
 	//hello feature-test-2
+	//dev test1
+	//dev test2
 }
