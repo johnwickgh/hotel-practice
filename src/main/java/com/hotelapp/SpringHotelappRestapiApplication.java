@@ -30,4 +30,6 @@ public class SpringHotelappRestapiApplication{
 	public PasswordEncoder passwordEncoder(){
 		return NoOpPasswordEncoder.getInstance();
 	}
+	//dev test1
+	//dev test2
 }
